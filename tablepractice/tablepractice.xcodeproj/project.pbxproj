@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		181D312722EA343A009018C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D312622EA343A009018C2 /* AppDelegate.swift */; };
-		181D312922EA343A009018C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D312822EA343A009018C2 /* ViewController.swift */; };
-		181D312C22EA343A009018C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181D312A22EA343A009018C2 /* Main.storyboard */; };
-		181D312E22EA343C009018C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181D312D22EA343C009018C2 /* Assets.xcassets */; };
-		181D313122EA343C009018C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181D312F22EA343C009018C2 /* LaunchScreen.storyboard */; };
-		181D313C22EA343C009018C2 /* emojionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D313B22EA343C009018C2 /* emojionalTests.swift */; };
-		181D314722EA343C009018C2 /* emojionalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D314622EA343C009018C2 /* emojionalUITests.swift */; };
+		18C6991922EB6E530086086F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6991822EB6E530086086F /* AppDelegate.swift */; };
+		18C6991E22EB6E530086086F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6991C22EB6E530086086F /* Main.storyboard */; };
+		18C6992022EB6E550086086F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C6991F22EB6E550086086F /* Assets.xcassets */; };
+		18C6992322EB6E550086086F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6992122EB6E550086086F /* LaunchScreen.storyboard */; };
+		18C6992E22EB6E550086086F /* tablepracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6992D22EB6E550086086F /* tablepracticeTests.swift */; };
+		18C6993922EB6E550086086F /* tablepracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6993822EB6E550086086F /* tablepracticeUITests.swift */; };
+		18C6994722EB71340086086F /* DogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6994622EB71340086086F /* DogTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		181D313822EA343C009018C2 /* PBXContainerItemProxy */ = {
+		18C6992A22EB6E550086086F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 181D311B22EA343A009018C2 /* Project object */;
+			containerPortal = 18C6990D22EB6E530086086F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 181D312222EA343A009018C2;
-			remoteInfo = emojional;
+			remoteGlobalIDString = 18C6991422EB6E530086086F;
+			remoteInfo = tablepractice;
 		};
-		181D314322EA343C009018C2 /* PBXContainerItemProxy */ = {
+		18C6993522EB6E550086086F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 181D311B22EA343A009018C2 /* Project object */;
+			containerPortal = 18C6990D22EB6E530086086F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 181D312222EA343A009018C2;
-			remoteInfo = emojional;
+			remoteGlobalIDString = 18C6991422EB6E530086086F;
+			remoteInfo = tablepractice;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		181D312322EA343A009018C2 /* emojional.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emojional.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		181D312622EA343A009018C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		181D312822EA343A009018C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		181D312B22EA343A009018C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		181D312D22EA343C009018C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		181D313022EA343C009018C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		181D313222EA343C009018C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		181D313722EA343C009018C2 /* emojionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emojionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		181D313B22EA343C009018C2 /* emojionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojionalTests.swift; sourceTree = "<group>"; };
-		181D313D22EA343C009018C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		181D314222EA343C009018C2 /* emojionalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emojionalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		181D314622EA343C009018C2 /* emojionalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojionalUITests.swift; sourceTree = "<group>"; };
-		181D314822EA343C009018C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C6991522EB6E530086086F /* tablepractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tablepractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C6991822EB6E530086086F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C6991D22EB6E530086086F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C6991F22EB6E550086086F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C6992222EB6E550086086F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C6992422EB6E550086086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C6992922EB6E550086086F /* tablepracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tablepracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C6992D22EB6E550086086F /* tablepracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tablepracticeTests.swift; sourceTree = "<group>"; };
+		18C6992F22EB6E550086086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C6993422EB6E550086086F /* tablepracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tablepracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C6993822EB6E550086086F /* tablepracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tablepracticeUITests.swift; sourceTree = "<group>"; };
+		18C6993A22EB6E550086086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C6994622EB71340086086F /* DogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		181D312022EA343A009018C2 /* Frameworks */ = {
+		18C6991222EB6E530086086F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		181D313422EA343C009018C2 /* Frameworks */ = {
+		18C6992622EB6E550086086F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		181D313F22EA343C009018C2 /* Frameworks */ = {
+		18C6993122EB6E550086086F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,137 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		181D311A22EA343A009018C2 = {
+		18C6990C22EB6E530086086F = {
 			isa = PBXGroup;
 			children = (
-				181D312522EA343A009018C2 /* emojional */,
-				181D313A22EA343C009018C2 /* emojionalTests */,
-				181D314522EA343C009018C2 /* emojionalUITests */,
-				181D312422EA343A009018C2 /* Products */,
+				18C6991722EB6E530086086F /* tablepractice */,
+				18C6992C22EB6E550086086F /* tablepracticeTests */,
+				18C6993722EB6E550086086F /* tablepracticeUITests */,
+				18C6991622EB6E530086086F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		181D312422EA343A009018C2 /* Products */ = {
+		18C6991622EB6E530086086F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				181D312322EA343A009018C2 /* emojional.app */,
-				181D313722EA343C009018C2 /* emojionalTests.xctest */,
-				181D314222EA343C009018C2 /* emojionalUITests.xctest */,
+				18C6991522EB6E530086086F /* tablepractice.app */,
+				18C6992922EB6E550086086F /* tablepracticeTests.xctest */,
+				18C6993422EB6E550086086F /* tablepracticeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		181D312522EA343A009018C2 /* emojional */ = {
+		18C6991722EB6E530086086F /* tablepractice */ = {
 			isa = PBXGroup;
 			children = (
-				181D312622EA343A009018C2 /* AppDelegate.swift */,
-				181D312822EA343A009018C2 /* ViewController.swift */,
-				181D312F22EA343C009018C2 /* LaunchScreen.storyboard */,
-				181D312A22EA343A009018C2 /* Main.storyboard */,
-				181D312D22EA343C009018C2 /* Assets.xcassets */,
-				181D313222EA343C009018C2 /* Info.plist */,
+				18C6991822EB6E530086086F /* AppDelegate.swift */,
+				18C6991C22EB6E530086086F /* Main.storyboard */,
+				18C6991F22EB6E550086086F /* Assets.xcassets */,
+				18C6992122EB6E550086086F /* LaunchScreen.storyboard */,
+				18C6992422EB6E550086086F /* Info.plist */,
+				18C6994622EB71340086086F /* DogTableViewController.swift */,
 			);
-			path = emojional;
+			path = tablepractice;
 			sourceTree = "<group>";
 		};
-		181D313A22EA343C009018C2 /* emojionalTests */ = {
+		18C6992C22EB6E550086086F /* tablepracticeTests */ = {
 			isa = PBXGroup;
 			children = (
-				181D313B22EA343C009018C2 /* emojionalTests.swift */,
-				181D313D22EA343C009018C2 /* Info.plist */,
+				18C6992D22EB6E550086086F /* tablepracticeTests.swift */,
+				18C6992F22EB6E550086086F /* Info.plist */,
 			);
-			path = emojionalTests;
+			path = tablepracticeTests;
 			sourceTree = "<group>";
 		};
-		181D314522EA343C009018C2 /* emojionalUITests */ = {
+		18C6993722EB6E550086086F /* tablepracticeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				181D314622EA343C009018C2 /* emojionalUITests.swift */,
-				181D314822EA343C009018C2 /* Info.plist */,
+				18C6993822EB6E550086086F /* tablepracticeUITests.swift */,
+				18C6993A22EB6E550086086F /* Info.plist */,
 			);
-			path = emojionalUITests;
+			path = tablepracticeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		181D312222EA343A009018C2 /* emojional */ = {
+		18C6991422EB6E530086086F /* tablepractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181D314B22EA343C009018C2 /* Build configuration list for PBXNativeTarget "emojional" */;
+			buildConfigurationList = 18C6993D22EB6E550086086F /* Build configuration list for PBXNativeTarget "tablepractice" */;
 			buildPhases = (
-				181D311F22EA343A009018C2 /* Sources */,
-				181D312022EA343A009018C2 /* Frameworks */,
-				181D312122EA343A009018C2 /* Resources */,
+				18C6991122EB6E530086086F /* Sources */,
+				18C6991222EB6E530086086F /* Frameworks */,
+				18C6991322EB6E530086086F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = emojional;
-			productName = emojional;
-			productReference = 181D312322EA343A009018C2 /* emojional.app */;
+			name = tablepractice;
+			productName = tablepractice;
+			productReference = 18C6991522EB6E530086086F /* tablepractice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		181D313622EA343C009018C2 /* emojionalTests */ = {
+		18C6992822EB6E550086086F /* tablepracticeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181D314E22EA343C009018C2 /* Build configuration list for PBXNativeTarget "emojionalTests" */;
+			buildConfigurationList = 18C6994022EB6E550086086F /* Build configuration list for PBXNativeTarget "tablepracticeTests" */;
 			buildPhases = (
-				181D313322EA343C009018C2 /* Sources */,
-				181D313422EA343C009018C2 /* Frameworks */,
-				181D313522EA343C009018C2 /* Resources */,
+				18C6992522EB6E550086086F /* Sources */,
+				18C6992622EB6E550086086F /* Frameworks */,
+				18C6992722EB6E550086086F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				181D313922EA343C009018C2 /* PBXTargetDependency */,
+				18C6992B22EB6E550086086F /* PBXTargetDependency */,
 			);
-			name = emojionalTests;
-			productName = emojionalTests;
-			productReference = 181D313722EA343C009018C2 /* emojionalTests.xctest */;
+			name = tablepracticeTests;
+			productName = tablepracticeTests;
+			productReference = 18C6992922EB6E550086086F /* tablepracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		181D314122EA343C009018C2 /* emojionalUITests */ = {
+		18C6993322EB6E550086086F /* tablepracticeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181D315122EA343C009018C2 /* Build configuration list for PBXNativeTarget "emojionalUITests" */;
+			buildConfigurationList = 18C6994322EB6E550086086F /* Build configuration list for PBXNativeTarget "tablepracticeUITests" */;
 			buildPhases = (
-				181D313E22EA343C009018C2 /* Sources */,
-				181D313F22EA343C009018C2 /* Frameworks */,
-				181D314022EA343C009018C2 /* Resources */,
+				18C6993022EB6E550086086F /* Sources */,
+				18C6993122EB6E550086086F /* Frameworks */,
+				18C6993222EB6E550086086F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				181D314422EA343C009018C2 /* PBXTargetDependency */,
+				18C6993622EB6E550086086F /* PBXTargetDependency */,
 			);
-			name = emojionalUITests;
-			productName = emojionalUITests;
-			productReference = 181D314222EA343C009018C2 /* emojionalUITests.xctest */;
+			name = tablepracticeUITests;
+			productName = tablepracticeUITests;
+			productReference = 18C6993422EB6E550086086F /* tablepracticeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		181D311B22EA343A009018C2 /* Project object */ = {
+		18C6990D22EB6E530086086F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					181D312222EA343A009018C2 = {
+					18C6991422EB6E530086086F = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					181D313622EA343C009018C2 = {
+					18C6992822EB6E550086086F = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 181D312222EA343A009018C2;
+						TestTargetID = 18C6991422EB6E530086086F;
 					};
-					181D314122EA343C009018C2 = {
+					18C6993322EB6E550086086F = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 181D312222EA343A009018C2;
+						TestTargetID = 18C6991422EB6E530086086F;
 					};
 				};
 			};
-			buildConfigurationList = 181D311E22EA343A009018C2 /* Build configuration list for PBXProject "emojional" */;
+			buildConfigurationList = 18C6991022EB6E530086086F /* Build configuration list for PBXProject "tablepractice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 181D311A22EA343A009018C2;
-			productRefGroup = 181D312422EA343A009018C2 /* Products */;
+			mainGroup = 18C6990C22EB6E530086086F;
+			productRefGroup = 18C6991622EB6E530086086F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				181D312222EA343A009018C2 /* emojional */,
-				181D313622EA343C009018C2 /* emojionalTests */,
-				181D314122EA343C009018C2 /* emojionalUITests */,
+				18C6991422EB6E530086086F /* tablepractice */,
+				18C6992822EB6E550086086F /* tablepracticeTests */,
+				18C6993322EB6E550086086F /* tablepracticeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		181D312122EA343A009018C2 /* Resources */ = {
+		18C6991322EB6E530086086F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181D313122EA343C009018C2 /* LaunchScreen.storyboard in Resources */,
-				181D312E22EA343C009018C2 /* Assets.xcassets in Resources */,
-				181D312C22EA343A009018C2 /* Main.storyboard in Resources */,
+				18C6992322EB6E550086086F /* LaunchScreen.storyboard in Resources */,
+				18C6992022EB6E550086086F /* Assets.xcassets in Resources */,
+				18C6991E22EB6E530086086F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		181D313522EA343C009018C2 /* Resources */ = {
+		18C6992722EB6E550086086F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		181D314022EA343C009018C2 /* Resources */ = {
+		18C6993222EB6E550086086F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		181D311F22EA343A009018C2 /* Sources */ = {
+		18C6991122EB6E530086086F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181D312922EA343A009018C2 /* ViewController.swift in Sources */,
-				181D312722EA343A009018C2 /* AppDelegate.swift in Sources */,
+				18C6994722EB71340086086F /* DogTableViewController.swift in Sources */,
+				18C6991922EB6E530086086F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		181D313322EA343C009018C2 /* Sources */ = {
+		18C6992522EB6E550086086F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181D313C22EA343C009018C2 /* emojionalTests.swift in Sources */,
+				18C6992E22EB6E550086086F /* tablepracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		181D313E22EA343C009018C2 /* Sources */ = {
+		18C6993022EB6E550086086F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181D314722EA343C009018C2 /* emojionalUITests.swift in Sources */,
+				18C6993922EB6E550086086F /* tablepracticeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		181D313922EA343C009018C2 /* PBXTargetDependency */ = {
+		18C6992B22EB6E550086086F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 181D312222EA343A009018C2 /* emojional */;
-			targetProxy = 181D313822EA343C009018C2 /* PBXContainerItemProxy */;
+			target = 18C6991422EB6E530086086F /* tablepractice */;
+			targetProxy = 18C6992A22EB6E550086086F /* PBXContainerItemProxy */;
 		};
-		181D314422EA343C009018C2 /* PBXTargetDependency */ = {
+		18C6993622EB6E550086086F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 181D312222EA343A009018C2 /* emojional */;
-			targetProxy = 181D314322EA343C009018C2 /* PBXContainerItemProxy */;
+			target = 18C6991422EB6E530086086F /* tablepractice */;
+			targetProxy = 18C6993522EB6E550086086F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		181D312A22EA343A009018C2 /* Main.storyboard */ = {
+		18C6991C22EB6E530086086F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				181D312B22EA343A009018C2 /* Base */,
+				18C6991D22EB6E530086086F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		181D312F22EA343C009018C2 /* LaunchScreen.storyboard */ = {
+		18C6992122EB6E550086086F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				181D313022EA343C009018C2 /* Base */,
+				18C6992222EB6E550086086F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		181D314922EA343C009018C2 /* Debug */ = {
+		18C6993B22EB6E550086086F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		181D314A22EA343C009018C2 /* Release */ = {
+		18C6993C22EB6E550086086F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,158 +428,158 @@
 			};
 			name = Release;
 		};
-		181D314C22EA343C009018C2 /* Debug */ = {
+		18C6993E22EB6E550086086F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = emojional/Info.plist;
+				INFOPLIST_FILE = tablepractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Wero.emojional;
+				PRODUCT_BUNDLE_IDENTIFIER = Wero.tablepractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		181D314D22EA343C009018C2 /* Release */ = {
+		18C6993F22EB6E550086086F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = emojional/Info.plist;
+				INFOPLIST_FILE = tablepractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Wero.emojional;
+				PRODUCT_BUNDLE_IDENTIFIER = Wero.tablepractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		181D314F22EA343C009018C2 /* Debug */ = {
+		18C6994122EB6E550086086F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = emojionalTests/Info.plist;
+				INFOPLIST_FILE = tablepracticeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Wero.emojionalTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Wero.tablepracticeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emojional.app/emojional";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tablepractice.app/tablepractice";
 			};
 			name = Debug;
 		};
-		181D315022EA343C009018C2 /* Release */ = {
+		18C6994222EB6E550086086F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = emojionalTests/Info.plist;
+				INFOPLIST_FILE = tablepracticeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Wero.emojionalTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Wero.tablepracticeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emojional.app/emojional";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tablepractice.app/tablepractice";
 			};
 			name = Release;
 		};
-		181D315222EA343C009018C2 /* Debug */ = {
+		18C6994422EB6E550086086F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = emojionalUITests/Info.plist;
+				INFOPLIST_FILE = tablepracticeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Wero.emojionalUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Wero.tablepracticeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = emojional;
+				TEST_TARGET_NAME = tablepractice;
 			};
 			name = Debug;
 		};
-		181D315322EA343C009018C2 /* Release */ = {
+		18C6994522EB6E550086086F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = emojionalUITests/Info.plist;
+				INFOPLIST_FILE = tablepracticeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Wero.emojionalUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Wero.tablepracticeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = emojional;
+				TEST_TARGET_NAME = tablepractice;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		181D311E22EA343A009018C2 /* Build configuration list for PBXProject "emojional" */ = {
+		18C6991022EB6E530086086F /* Build configuration list for PBXProject "tablepractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				181D314922EA343C009018C2 /* Debug */,
-				181D314A22EA343C009018C2 /* Release */,
+				18C6993B22EB6E550086086F /* Debug */,
+				18C6993C22EB6E550086086F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		181D314B22EA343C009018C2 /* Build configuration list for PBXNativeTarget "emojional" */ = {
+		18C6993D22EB6E550086086F /* Build configuration list for PBXNativeTarget "tablepractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				181D314C22EA343C009018C2 /* Debug */,
-				181D314D22EA343C009018C2 /* Release */,
+				18C6993E22EB6E550086086F /* Debug */,
+				18C6993F22EB6E550086086F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		181D314E22EA343C009018C2 /* Build configuration list for PBXNativeTarget "emojionalTests" */ = {
+		18C6994022EB6E550086086F /* Build configuration list for PBXNativeTarget "tablepracticeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				181D314F22EA343C009018C2 /* Debug */,
-				181D315022EA343C009018C2 /* Release */,
+				18C6994122EB6E550086086F /* Debug */,
+				18C6994222EB6E550086086F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		181D315122EA343C009018C2 /* Build configuration list for PBXNativeTarget "emojionalUITests" */ = {
+		18C6994322EB6E550086086F /* Build configuration list for PBXNativeTarget "tablepracticeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				181D315222EA343C009018C2 /* Debug */,
-				181D315322EA343C009018C2 /* Release */,
+				18C6994422EB6E550086086F /* Debug */,
+				18C6994522EB6E550086086F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 181D311B22EA343A009018C2 /* Project object */;
+	rootObject = 18C6990D22EB6E530086086F /* Project object */;
 }
